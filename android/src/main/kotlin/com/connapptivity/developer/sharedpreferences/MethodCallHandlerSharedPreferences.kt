@@ -165,41 +165,19 @@ internal class MethodCallHandlerSharedPreferences(private val context: Context) 
 
                 var value = allPrefs[key] ?: error("")
 
-                when (value) {
-                    is String -> {
-                        val stringValue = value
-                        when {
-                            stringValue.startsWith(LIST_IDENTIFIER) -> value = decodeList(stringValue.substring(LIST_IDENTIFIER.length))
+                if (value is String) {
+                    when {
+                        value.startsWith(LIST_IDENTIFIER) -> value = decodeList(value.substring(LIST_IDENTIFIER.length))
 
-                            stringValue.startsWith(BIG_INTEGER_PREFIX) -> {
-                                val encoded: String = stringValue.substring(BIG_INTEGER_PREFIX.length)
-                                value = BigInteger(encoded, Character.MAX_RADIX)
-                            }
-
-                            stringValue.startsWith(DOUBLE_PREFIX) -> {
-                                val doubleStr: String = stringValue.substring(DOUBLE_PREFIX.length)
-                                value = java.lang.Double.valueOf(doubleStr)
-                            }
+                        value.startsWith(BIG_INTEGER_PREFIX) -> {
+                            val encoded: String = value.substring(BIG_INTEGER_PREFIX.length)
+                            value = BigInteger(encoded, Character.MAX_RADIX)
                         }
-                    }
 
-                    // This only happens for previous usage of setStringSet. The app expects a list.
-                    is Set<*> -> {
-                        val listValue: List<String?> = value.toList() as List<String>
-                        // Let's migrate the value too while we are at it.
-                        val success: Boolean = preferences
-                                .edit()
-                                .remove(key)
-                                .putString(key, LIST_IDENTIFIER + encodeList(listValue))
-                                .commit()
-                        if (!success) {
-                            // If we are unable to migrate the existing preferences, it means we potentially
-                            // lost them.
-                            // In this case, an error from getAllPrefs() is appropriate since it will alert
-                            // the app during plugin initialization.
-                            throw IOException("Could not migrate set to list")
+                        value.startsWith(DOUBLE_PREFIX) -> {
+                            val doubleStr: String = value.substring(DOUBLE_PREFIX.length)
+                            value = java.lang.Double.valueOf(doubleStr)
                         }
-                        value = listValue
                     }
                 }
 
