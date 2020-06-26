@@ -38,7 +38,7 @@ internal class MethodCallHandlerSharedPreferences(private val context: Context) 
     @SuppressLint("CommitPrefEdits")
     override fun onMethodCall(call: MethodCall, result: MethodChannel.Result) {
         val key = call.argument<String>("key")
-        if (key == null) {
+        if (key == null && call.method != "getAll") {
             result.error("001", "Key is null", "The passed key from call.arguments[\"key\"] is null.")
             return
         }

@@ -70,8 +70,22 @@ class _MyAppState extends State<MyApp> {
                   ),
                   color: Colors.lightBlue,
                   onPressed: () {
-                    preferences.setBool("$_storedKeys", true);
+                    final key = _storedKeys;
+                    preferences.setInt("int$key", key);
+                    preferences.setBool("bool$key", true);
+                    preferences.setDouble("double$key", key.toDouble());
+                    preferences.setString("string$key", "$key");
+                    preferences.setStringList("stringlist$key", ["0$key", "1$key", "2$key", "3$key", "4$key"]);
+
                     initStoredKeys();
+
+                    print("");
+                    print("INT: Set value " + preferences.getInt("int$key").toString() + " for key $key");
+                    print("BOOL: Set value " + preferences.getBool("bool$key").toString() + " for key $key");
+                    print("DOUBLE: Set value " + preferences.getDouble("double$key").toString() + " for key $key");
+                    print("STRING: Set value " + preferences.getString("string$key").toString() + " for key $key");
+                    print("STRINGLIST: Set value " + preferences.getStringList("stringlist$key").toString() + " for key $key");
+                    print("");
                   }
                 )
               ],
