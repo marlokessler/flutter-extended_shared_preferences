@@ -1,4 +1,4 @@
-package com.connapptivity.developer.sharedpreferences
+package com.marlokessler.sharedpreferences
 
 import android.content.Context
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -18,7 +18,7 @@ class SharedpreferencesPlugin : FlutterPlugin {
 
   companion object {
 
-    private const val CHANNEL_NAME = "com.connapptivity.developer/sharedpreferences"
+    private const val CHANNEL_NAME = "com.marlokessler.sharedpreferences"
 
     fun registerWith(registrar: Registrar) {
       val plugin = SharedpreferencesPlugin()

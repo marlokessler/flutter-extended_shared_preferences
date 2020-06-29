@@ -1,3 +1,2 @@
-## 0.0.1
-
-* TODO: Describe initial release.
+## 1.0.0
+* A extended version of the flutter shared_preferences plugin with a multi-sharedpreferences file function.

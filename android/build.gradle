@@ -1,4 +1,4 @@
-group 'com.connapptivity.developer.sharedpreferences'
+group 'com.marlokessler.sharedpreferences'
 version '1.0-SNAPSHOT'
 
 buildscript {

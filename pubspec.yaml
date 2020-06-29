@@ -1,7 +1,7 @@
-name: sharedpreferences
+name: extended_shared_preferences
 description: Implements SharedPreferendes of Android and NSUserDefaults of iOS in Flutter.
-version: 0.0.1
-homepage: "https://github.com/Connapptivity/flutter-SharedPreferences.git"
+version: 1.0.0
+homepage: "https://github.com/MarloKessler/flutter-extended_shared_preferences"
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

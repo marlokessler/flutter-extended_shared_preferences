@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 
 
-const MethodChannel _kChannel = MethodChannel('com.connapptivity.developer/sharedpreferences');
+const MethodChannel _kChannel = MethodChannel('com.marlokessler.sharedpreferences');
 
 
 
