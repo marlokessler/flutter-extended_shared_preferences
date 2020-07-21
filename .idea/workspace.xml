@@ -5,103 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0d928c0-610d-4005-be88-fcc398aba600" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/connapptivity/developer/sharedpreferences/MethodCallHandlerSharedPreferences.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/connapptivity/developer/sharedpreferences/SharedpreferencesPlugin.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/kotlin/com/connapptivity/developer/sharedpreferences_example/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Flutter" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/Flutter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterAppDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterBinaryMessenger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterCallbackCache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterChannels.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterCodecs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterDartProject.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterEngine.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterHeadlessDartRunner.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterMacros.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterPlatformViews.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterPlugin.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterPluginAppLifeCycleDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterTexture.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Headers/FlutterViewController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/Modules/module.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/_CodeSignature/CodeResources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Flutter 2.framework/icudtl.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftSharedpreferencesPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftSharedpreferencesPlugin.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/MethodChannel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MethodChannel.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/SharedPreferences.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/SharedPreferences.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/sharedpreferences_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sharedpreferences.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sharedpreferences.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

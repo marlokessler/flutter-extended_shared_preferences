@@ -19,7 +19,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.connapptivity.developer.sharedpreferences
+        package: com.marlokessler.sharedpreferences
         pluginClass: SharedpreferencesPlugin
       ios:
         pluginClass: SharedpreferencesPlugin
