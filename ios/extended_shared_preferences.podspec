@@ -1,17 +1,16 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint sharedpreferences.podspec' to validate before publishing.
+# Run `pod lib lint extended_shared_preferences.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'sharedpreferences'
-  s.version          = '0.0.1'
+  s.name             = 'extended_shared_preferences'
+  s.version          = '1.0.2'
   s.summary          = 'Implements SharedPreferendes of Android and NSUserDefaults of iOS in Flutter.'
-  s.description      = <<-DESC
-Implements SharedPreferendes of Android and NSUserDefaults of iOS in Flutter.
-                       DESC
-  s.homepage         = 'http://example.com'
+  s.description      = 'Implements SharedPreferendes of Android and NSUserDefaults of iOS in Flutter.'
+
+  s.homepage         = 'https://github.com/MarloKessler/flutter-extended_shared_preferences'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Connapptivity' => 'marlo.kessler@connapptivity.de' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
