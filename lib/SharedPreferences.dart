@@ -14,6 +14,12 @@ class SharedPreferences {
     reload();
   }
   
+  /// Fetches value from the host platform
+  /// Needs to be called before getting preferences. 
+  Future<void> init() async {
+    await reload();
+  }
+  
   static SharedPreferences standard = SharedPreferences();
 
   
