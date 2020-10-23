@@ -6,7 +6,9 @@ This plugin wraps NSUserDefaults (on iOS) and SharedPreferences (on Android), pr
 The deprecated `commit()` function is removed.
 
 ## Getting Started
-Implement this plugin in your flutter project and use it with `SharedPreferences.standard` or `SharedPreferences()` to use the default preference store or use your own with `SharedPreferences("[Your preference file]")`.
+Implement this plugin in your flutter project and use it with `SharedPreferences.standard` or `SharedPreferences()` to use the default preference store or use your own one with `SharedPreferences("[Your preference file]")`.
+
+Before you can use the preference store you must call `await SharedPreferences().loadPersistentStore()` to load the preferences from the storage.
 
 You can read values by calling
 ```dart

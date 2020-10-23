@@ -10,11 +10,17 @@ class SharedPreferences {
   
 
 
-  SharedPreferences([ this.filename = "flutterDefaultPreferences" ]) {
-    reload();
-  }
+  SharedPreferences([ this.filename = "flutterDefaultPreferences" ]);
   
   static SharedPreferences standard = SharedPreferences();
+
+
+
+  /// Fetches value from the host platform
+  /// Needs to be called before getting preferences.
+  Future<void> loadPersistentStore() async {
+    await reload();
+  }
 
   
 
