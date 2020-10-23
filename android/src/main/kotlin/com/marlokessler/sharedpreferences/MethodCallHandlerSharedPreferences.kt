@@ -27,7 +27,7 @@ internal class MethodCallHandlerSharedPreferences(private val context: Context) 
 
     companion object {
         // Fun fact: The following is a base64 encoding of the string "This is the prefix for a list."
-        private const val PREFIX ""
+        private const val PREFIX = ""
         private const val LIST_IDENTIFIER = "VGhpcyBpcyB0aGUgcHJlZml4IGZvciBhIGxpc3Qu"
         private const val BIG_INTEGER_PREFIX = "VGhpcyBpcyB0aGUgcHJlZml4IGZvciBCaWdJbnRlZ2Vy"
         private const val DOUBLE_PREFIX = "VGhpcyBpcyB0aGUgcHJlZml4IGZvciBEb3VibGUu"
