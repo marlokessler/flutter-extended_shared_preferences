@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'extended_shared_preferences'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Implements SharedPreferendes of Android and NSUserDefaults of iOS in Flutter.'
   s.description      = 'Implements SharedPreferendes of Android and NSUserDefaults of iOS in Flutter.'
 
